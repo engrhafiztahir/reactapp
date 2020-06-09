@@ -40,5 +40,5 @@ jobs:
       run: npm install -g surge
     
     - name: deploying on surge
-      run: surge ./build http://reactapp1st.surge.sh/ --token ${{secrets.AIC_react}}
+      run: surge ./build http://myreactapp1st.surge.sh/ --token ${{secrets.AIC_react}}
     
